@@ -15,6 +15,7 @@ def calculate(request):
         operation_type = body['operation_type']
         x = int(body['x'])
         y = int(body['y'])
+        
 
         if operation_type == 'addition':
             result = x + y

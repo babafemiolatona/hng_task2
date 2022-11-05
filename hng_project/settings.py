@@ -127,3 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import os
 
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+
+import django_heroku
+django_heroku.settings(locals())
